@@ -20,3 +20,11 @@ console.log(typeof number) ;
 console.log(typeof String) ;
 console.log(typeof bool);
 console.log(typeof object); 
+
+const n1 = '10'; // string 
+const n2 = 20;  // number
+
+console.log(n1+n2); // string
+console.log(n2+n1); // string 
+
+console.log(Number(n1)+n2);
